@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR PRODUCTS </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        body{
+            background-image: url(images/bg.png);
+            
+            /* background-color: #bc9667;*/
+        }
+
+        section{
+            padding: 50px 100px;
+        }
+        .heading{
+            text-align: center;
+            color:#bc9667;
+
+        }
+        .heading h2{
+            font-size: 2.6rem;
+            text-transform: uppercase;
+        }
+        .product-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+            gap:3rem;
+            margin-top: 2rem;
+        }
+        .product-container .box{
+            position: relative;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+             border-radius: 0.5rem;
+             background-color: #bc9667c7;
+             border: 2px solid black;       
+        }
+        .product-container img{
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            object-position: center;
+            padding: 20px;
+            background: #dbdadae9;
+            border-radius: 0.5rem;
+            border: 2px solid rgba(255, 217, 0, 0.855);
+        }
+        .product-container .box h3{
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 0.5rem 0 0.5rem;
+        }
+        .product-container .box .content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .product-container .box .content span{
+            padding: 0 1rem;
+            color: var(--bg-color);
+            background: #7a5142;
+            color: aliceblue;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .product-container .box .content a{
+            padding: 0 1rem;
+            color: var(--text-color);
+            /* background: 2px solid var(--main-color); */
+            border-radius: 4px;
+            border:2px solid #7a5142;
+            text-transform: uppercase;
+        }
+        .product-container .box .content a:hover{
+            color: var(--bg-color);
+            background:#7a5142;
+            transition: 0.2s all linear;
+        }
+        .product-container .box:hover{
+            transform: scale(1.1);
+            transition: 0.2s all ease-in;
+        }
+        /* navbar */
+        .n-container{
+        background-color: #e6d3cddf;
+        height: 90px;
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      opacity: 0.7;
+    }
+    .n-container .logo img{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      margin: 5px 10px;
+      
+    }
+    .navbar-menu{
+      margin-left: 200px;
+    }
+    .navbar-menu a{
+      color: #2c2c2bc7;
+      font-size: 18px;
+      font-family: 'Raleway',sans-serif;
+      font-weight: 600;
+      padding: 12px 15px;
+      margin-left: 20px;
+      border-radius: 2px;
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: 0.4s;
+    }
+
+    .navbar-menu a:hover{
+    background-color: #7a5142df;
+  color:white; 
+}
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="n-container">
+          <h1 class="logo"><img src="l1.jpeg" alt=""></h1>
+          <div class="navbar-menu">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="menu.html">Menu</a>
+            <a href="login.html">Login</a>
+            <a href="#footer">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+
+<!-- productes -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2> Our Products</h2>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="images/p1.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p2.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p3.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p4.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p5.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p6.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p8.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p9.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+            <!-- 8 sections -->
+            <div class="box">
+                <img src="images/p11.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p14.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p12.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p13.png" alt="">
+                <h3>AMEricano</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
